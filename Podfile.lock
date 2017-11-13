@@ -1,0 +1,181 @@
+PODS:
+  - apptentive-ios (4.1.0)
+  - Core (1.0.0):
+    - KeychainAccess
+    - Kingfisher (~> 3.0)
+    - ReachabilitySwift (~> 3)
+    - SDWebImage (~> 3.8)
+  - Crashlytics (3.9.3):
+    - Fabric (~> 1.7.2)
+  - Directory (1.0.0):
+    - Core
+    - DropDown
+    - Dropper
+    - Kingfisher (~> 3.0)
+    - pdf
+    - Poster
+    - Video
+  - DropDown (2)
+  - Dropper (2.7.6)
+  - Fabric (1.7.2)
+  - Firebase/Core (4.5.0):
+    - FirebaseAnalytics (= 4.0.4)
+    - FirebaseCore (= 4.0.10)
+  - Firebase/Messaging (4.5.0):
+    - Firebase/Core
+    - FirebaseMessaging (= 2.0.6)
+  - FirebaseAnalytics (4.0.4):
+    - FirebaseCore (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+    - nanopb (~> 0.3)
+  - FirebaseCore (4.0.10):
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+    - nanopb (~> 0.3)
+  - FirebaseInstanceID (2.0.5)
+  - FirebaseMessaging (2.0.6):
+    - FirebaseAnalytics (~> 4.0)
+    - FirebaseCore (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - Protobuf (~> 3.1)
+  - Floaty (4.0.0)
+  - GoogleToolboxForMac/Defines (2.1.3)
+  - GoogleToolboxForMac/Logger (2.1.3):
+    - GoogleToolboxForMac/Defines (= 2.1.3)
+  - GoogleToolboxForMac/NSData+zlib (2.1.3):
+    - GoogleToolboxForMac/Defines (= 2.1.3)
+  - Kanna (2.2.1)
+  - KeychainAccess (3.1.0)
+  - Kingfisher (3.13.1)
+  - mfadvisor (1.0.0):
+    - Core
+    - DropDown
+    - Floaty
+    - Kanna
+    - PDFGenerator
+    - XLPagerTabStrip
+  - nanopb (0.3.8):
+    - nanopb/decode (= 0.3.8)
+    - nanopb/encode (= 0.3.8)
+  - nanopb/decode (0.3.8)
+  - nanopb/encode (0.3.8)
+  - news (1.0.0):
+    - Core
+    - Kanna
+  - pdf (1.0.0):
+    - Core
+  - PDFGenerator (2.1)
+  - Poster (1.0.0):
+    - Core
+    - SKPhotoBrowser
+    - TOCropViewController
+  - Protobuf (3.4.0)
+  - quiz (1.0.0):
+    - Core
+  - ReachabilitySwift (3)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - SKPhotoBrowser (4.1.1)
+  - TOCropViewController (2.1.0)
+  - Video (1.0.0):
+    - Core
+  - XLPagerTabStrip (7.0.0)
+
+DEPENDENCIES:
+  - apptentive-ios
+  - Core (from `git@gitlab.com:enparadigm_superagent/smartsell-ios-core.git`)
+  - Crashlytics
+  - Directory (from `git@gitlab.com:enparadigm_superagent/smartsell-ios-directory.git`)
+  - Fabric
+  - Firebase/Core
+  - Firebase/Messaging
+  - mfadvisor (from `git@gitlab.com:enparadigm_superagent/smartsell-ios-mfadvisor.git`)
+  - news (from `git@gitlab.com:enparadigm_superagent/smartsell-ios-news.git`)
+  - pdf (from `git@gitlab.com:enparadigm_superagent/smartsell-ios-pdf.git`)
+  - Poster (from `git@gitlab.com:enparadigm_superagent/smartsell-ios-posters.git`)
+  - quiz (from `git@gitlab.com:enparadigm_superagent/smartsell-ios-quiz.git`)
+  - Video (from `git@gitlab.com:enparadigm_superagent/smartsell-ios-video.git`)
+  - XLPagerTabStrip (~> 7.0)
+
+EXTERNAL SOURCES:
+  Core:
+    :git: git@gitlab.com:enparadigm_superagent/smartsell-ios-core.git
+  Directory:
+    :git: git@gitlab.com:enparadigm_superagent/smartsell-ios-directory.git
+  mfadvisor:
+    :git: git@gitlab.com:enparadigm_superagent/smartsell-ios-mfadvisor.git
+  news:
+    :git: git@gitlab.com:enparadigm_superagent/smartsell-ios-news.git
+  pdf:
+    :git: git@gitlab.com:enparadigm_superagent/smartsell-ios-pdf.git
+  Poster:
+    :git: git@gitlab.com:enparadigm_superagent/smartsell-ios-posters.git
+  quiz:
+    :git: git@gitlab.com:enparadigm_superagent/smartsell-ios-quiz.git
+  Video:
+    :git: git@gitlab.com:enparadigm_superagent/smartsell-ios-video.git
+
+CHECKOUT OPTIONS:
+  Core:
+    :commit: bda77fc1c839225f3817919c6afeb880eadaac7d
+    :git: git@gitlab.com:enparadigm_superagent/smartsell-ios-core.git
+  Directory:
+    :commit: ddb84fdad714071ce205f65008efd06c39b6f262
+    :git: git@gitlab.com:enparadigm_superagent/smartsell-ios-directory.git
+  mfadvisor:
+    :commit: ec5e8635f0de2faaf62814ce8afce52f7c9f50d2
+    :git: git@gitlab.com:enparadigm_superagent/smartsell-ios-mfadvisor.git
+  news:
+    :commit: 201e85a368669c5f11265b65e2d65f66a48d13ed
+    :git: git@gitlab.com:enparadigm_superagent/smartsell-ios-news.git
+  pdf:
+    :commit: ca6395701f6739d7b076f80fc75e81a15117be6a
+    :git: git@gitlab.com:enparadigm_superagent/smartsell-ios-pdf.git
+  Poster:
+    :commit: 8f5670d15951962d8f6aaf078bc7cc33b2b86183
+    :git: git@gitlab.com:enparadigm_superagent/smartsell-ios-posters.git
+  quiz:
+    :commit: 2a5eea3b49acac4804dbb0e447c5ee4df60cebea
+    :git: git@gitlab.com:enparadigm_superagent/smartsell-ios-quiz.git
+  Video:
+    :commit: 4aba40990555c4b4671b1689400c957eb8191db9
+    :git: git@gitlab.com:enparadigm_superagent/smartsell-ios-video.git
+
+SPEC CHECKSUMS:
+  apptentive-ios: a5d6536145ca6b2d30805bc3505479dde0edb961
+  Core: ab74f73e21a5c2bdb3abe43e8c79f45371733ec6
+  Crashlytics: dbb07d01876c171c5ccbdf7826410380189e452c
+  Directory: f1ff42c247c831b3048376b71cf9877429b93a62
+  DropDown: 744784d9c9aa505100e942c16acd05430cbb2f0a
+  Dropper: 52a020beb6fef2e4b1d55447f17099e5776954ef
+  Fabric: 9cd6a848efcf1b8b07497e0b6a2e7d336353ba15
+  Firebase: d83d287bdb6b1c78320561482706d1fcfc8ddfc1
+  FirebaseAnalytics: 722b53c7b32bfc7806b06e0093a2f5180d4f2c5a
+  FirebaseCore: da5e8e372cb6046212739a4d81e42d32c22907cc
+  FirebaseInstanceID: f2b688c66b972f30d7fa9f5f9f91455454a03b47
+  FirebaseMessaging: 75d83375b0f7a9911568d7bdd1a1a8261cbcbdef
+  Floaty: 4f88811bbf08521807f42355db6a9c0db85d5d78
+  GoogleToolboxForMac: 2501e2ad72a52eb3dfe7bd9aee7dad11b858bd20
+  Kanna: 182789ab065e8f9a6ccc2a74ce6283d3401c0c4a
+  KeychainAccess: 94c5540b32eabf7bc32bfb976a268e8ea05fd6da
+  Kingfisher: ed9707a409cc47fddafbcd12a43a9757e3600af5
+  mfadvisor: 37591f9d52d4f8440c48762684aab3a0d8b41a3c
+  nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
+  news: 7d45ff67e280c42bfed358360141f11b4cd13cda
+  pdf: ff759dd33618b360a705c95f2ca8f6ffe4e0d0e1
+  PDFGenerator: 4fd5db4972465679f4846a9a36d53e8826536a6d
+  Poster: a94450af2486344d32bc04146383477cf551591a
+  Protobuf: 03eef2ee0b674770735cf79d9c4d3659cf6908e8
+  quiz: edbba72506dc93623dee8ebd8b62a59cbaec5c36
+  ReachabilitySwift: f5b9bb30a0777fac8f09ce8b067e32faeb29bb64
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  SKPhotoBrowser: aa02de50f56d80fac23f543e40847af6b360e4b3
+  TOCropViewController: f88194a084f6afe1fd6f21a3f0edda7dd097e38b
+  Video: db9c99e9323a7d8a6b94d764b39b8d684877f07a
+  XLPagerTabStrip: 9be80a66c6b7d60306b2c0a6004965016d68f813
+
+PODFILE CHECKSUM: 8b4518db7861b50e3dd7b16fda17470ed425450d
+
+COCOAPODS: 1.3.1

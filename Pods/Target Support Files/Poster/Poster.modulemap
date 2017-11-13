@@ -1,0 +1,6 @@
+framework module Poster {
+  umbrella header "Poster-umbrella.h"
+
+  export *
+  module * { export * }
+}

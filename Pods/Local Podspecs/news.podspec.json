@@ -1,0 +1,42 @@
+{
+  "name": "news",
+  "version": "1.0.0",
+  "summary": "A short description of news.",
+  "description": "news module of smartsell ios app",
+  "homepage": "http://enparadigm.com/",
+  "license": "ENPARADIGM",
+  "authors": {
+    "Kunal Singh": "kunal.singh@cybrilla.com"
+  },
+  "source": {
+    "git": "git@vault.cybrilla.com:enparadigm/news.git",
+    "tag": "1.0.0"
+  },
+  "source_files": [
+    "news",
+    "news/**/*.{h,m,swift}"
+  ],
+  "resources": "news/**/*.{plist,png,jpg,json,strings,xib,xcdatamodeld}",
+  "resource_bundles": {
+    "news": [
+      "news/**/*.{xib,png,strings,jpg}"
+    ]
+  },
+  "pod_target_xcconfig": {
+    "SWIFT_VERSION": "3"
+  },
+  "dependencies": {
+    "Core": [
+
+    ],
+    "Kanna": [
+
+    ]
+  },
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
+  }
+}

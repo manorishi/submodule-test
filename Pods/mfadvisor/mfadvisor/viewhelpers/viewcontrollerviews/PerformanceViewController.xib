@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PerformanceViewController" customModule="mfadvisor" customModuleProvider="target">
+            <connections>
+                <outlet property="fundNameLabel" destination="xqn-wX-C2s" id="8Ae-V5-uID"/>
+                <outlet property="performanceButton" destination="2Ew-l5-6I5" id="UpC-SJ-hOW"/>
+                <outlet property="view" destination="iN0-l3-epB" id="59H-dG-t0E"/>
+                <outlet property="yearsContainerView" destination="8dB-Gc-Kjl" id="Z02-QF-D4m"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Selected Fund" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5ix-hq-mRf">
+                    <rect key="frame" x="10" y="12" width="302" height="21"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="6dC-lz-NXB"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xqn-wX-C2s">
+                    <rect key="frame" x="10" y="37" width="302" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="Se8-7g-vbd"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What details to include in the snapshot?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oih-y8-hXQ">
+                    <rect key="frame" x="10" y="72" width="302" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="YrI-gp-5iV"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8dB-Gc-Kjl">
+                    <rect key="frame" x="8" y="105" width="304" height="413"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Ew-l5-6I5">
+                    <rect key="frame" x="0.0" y="518" width="320" height="50"/>
+                    <color key="backgroundColor" red="0.54901960780000003" green="0.1215686275" blue="0.29803921570000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="6Gy-ct-DKS"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                    <state key="normal" title="CREATE PERFORMANCE SNAPSHOT"/>
+                    <connections>
+                        <action selector="clickedOnPerformanceButton:" destination="-1" eventType="touchUpInside" id="BUF-sq-HpN"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.91764705879999997" green="0.91764705879999997" blue="0.91764705879999997" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="oih-y8-hXQ" firstAttribute="top" secondItem="xqn-wX-C2s" secondAttribute="bottom" constant="14" id="5zF-bt-kTS"/>
+                <constraint firstItem="5ix-hq-mRf" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="64N-9K-Fvo"/>
+                <constraint firstItem="2Ew-l5-6I5" firstAttribute="top" secondItem="8dB-Gc-Kjl" secondAttribute="bottom" id="9cK-K6-Li5"/>
+                <constraint firstItem="2Ew-l5-6I5" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="I83-UV-ntB"/>
+                <constraint firstItem="xqn-wX-C2s" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="Jev-Lr-fKO"/>
+                <constraint firstItem="5ix-hq-mRf" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="12" id="JxE-tA-fft"/>
+                <constraint firstAttribute="trailing" secondItem="8dB-Gc-Kjl" secondAttribute="trailing" constant="8" id="KaM-I0-lVV"/>
+                <constraint firstAttribute="trailing" secondItem="2Ew-l5-6I5" secondAttribute="trailing" id="LMz-KN-ksJ"/>
+                <constraint firstAttribute="trailing" secondItem="oih-y8-hXQ" secondAttribute="trailing" constant="8" id="REY-Xr-R2r"/>
+                <constraint firstAttribute="bottom" secondItem="2Ew-l5-6I5" secondAttribute="bottom" id="UHk-rp-Q7W"/>
+                <constraint firstItem="oih-y8-hXQ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="ZgL-Lm-VxZ"/>
+                <constraint firstItem="8dB-Gc-Kjl" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="mhJ-dn-Npe"/>
+                <constraint firstItem="8dB-Gc-Kjl" firstAttribute="top" secondItem="oih-y8-hXQ" secondAttribute="bottom" constant="12" id="tl3-nb-egJ"/>
+                <constraint firstAttribute="trailing" secondItem="5ix-hq-mRf" secondAttribute="trailing" constant="8" id="wab-Oa-rKf"/>
+                <constraint firstAttribute="trailing" secondItem="xqn-wX-C2s" secondAttribute="trailing" constant="8" id="xyB-Zn-Dm4"/>
+                <constraint firstItem="xqn-wX-C2s" firstAttribute="top" secondItem="5ix-hq-mRf" secondAttribute="bottom" constant="4" id="zq7-Xb-2FJ"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+        </view>
+    </objects>
+</document>

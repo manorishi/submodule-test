@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="GalleryCollectionViewCell" customModule="Directory" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="152" height="230"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="152" height="230"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="default_placeholder.png" translatesAutoresizingMaskIntoConstraints="NO" id="qDP-Sb-B9s">
+                        <rect key="frame" x="0.0" y="0.0" width="152" height="152"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="qDP-Sb-B9s" secondAttribute="height" multiplier="1:1" id="bbT-4K-bDE"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabel" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fb1-jc-8Wb">
+                        <rect key="frame" x="4" y="184" width="144" height="33"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="33" id="tdm-A0-IP8"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="13"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_new.png" translatesAutoresizingMaskIntoConstraints="NO" id="I5W-T2-NU9">
+                        <rect key="frame" x="0.0" y="4" width="45" height="45"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="45" id="DOb-PF-Xic"/>
+                            <constraint firstAttribute="width" constant="45" id="XLP-Aa-5C3"/>
+                        </constraints>
+                    </imageView>
+                    <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_poster.png" translatesAutoresizingMaskIntoConstraints="NO" id="AMP-S8-2c8">
+                        <rect key="frame" x="109" y="8" width="35" height="35"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="35" id="4N3-RV-h59"/>
+                            <constraint firstAttribute="height" constant="35" id="RPV-fj-xry"/>
+                        </constraints>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Exv-1A-pbc" customClass="CustomTaggedButton" customModule="Directory" customModuleProvider="target">
+                        <rect key="frame" x="109" y="8" width="35" height="35"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="Exv-1A-pbc" secondAttribute="height" multiplier="1:1" id="KdM-Q2-Smv"/>
+                            <constraint firstAttribute="width" constant="35" id="iMF-nL-Fec"/>
+                        </constraints>
+                        <state key="normal" title="Button" image="dir_favorite_selected.png"/>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SvU-9E-e88">
+                        <rect key="frame" x="4" y="160" width="144" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="gRr-d9-XE7"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7sl-80-VfN" customClass="CustomTaggedButton" customModule="Directory" customModuleProvider="target">
+                        <rect key="frame" x="117" y="152" width="35" height="35"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="35" id="jLW-WZ-VYw"/>
+                            <constraint firstAttribute="width" secondItem="7sl-80-VfN" secondAttribute="height" multiplier="1:1" id="qas-Oz-jzz"/>
+                        </constraints>
+                        <inset key="imageEdgeInsets" minX="2" minY="2" maxX="2" maxY="2"/>
+                        <state key="normal" title="Button" image="dir_ic_more.png"/>
+                    </button>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="7sl-80-VfN" secondAttribute="trailing" id="1D2-YS-6Tb"/>
+                <constraint firstItem="Fb1-jc-8Wb" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="4" id="2YL-zd-V7j"/>
+                <constraint firstItem="AMP-S8-2c8" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="8" id="5fy-Xp-JA0"/>
+                <constraint firstItem="Fb1-jc-8Wb" firstAttribute="top" secondItem="SvU-9E-e88" secondAttribute="bottom" constant="4" id="6Ih-g6-PKS"/>
+                <constraint firstAttribute="trailing" secondItem="qDP-Sb-B9s" secondAttribute="trailing" id="AmI-NG-NmN"/>
+                <constraint firstItem="I5W-T2-NU9" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="4" id="D6a-4N-Qet"/>
+                <constraint firstItem="Exv-1A-pbc" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="8" id="HE2-6j-tL3"/>
+                <constraint firstItem="SvU-9E-e88" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="4" id="IsN-FB-579"/>
+                <constraint firstAttribute="trailing" secondItem="AMP-S8-2c8" secondAttribute="trailing" constant="8" id="KKH-mc-Za4"/>
+                <constraint firstItem="qDP-Sb-B9s" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="QDZ-Lb-EFX"/>
+                <constraint firstAttribute="trailing" secondItem="Fb1-jc-8Wb" secondAttribute="trailing" constant="4" id="Rwp-oj-sNL"/>
+                <constraint firstItem="SvU-9E-e88" firstAttribute="top" secondItem="qDP-Sb-B9s" secondAttribute="bottom" constant="8" id="S67-JX-vSR"/>
+                <constraint firstItem="7sl-80-VfN" firstAttribute="top" secondItem="qDP-Sb-B9s" secondAttribute="bottom" id="c4J-lK-SzS"/>
+                <constraint firstAttribute="trailing" secondItem="Exv-1A-pbc" secondAttribute="trailing" constant="8" id="e51-49-mO3"/>
+                <constraint firstItem="I5W-T2-NU9" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="lLj-oA-99n"/>
+                <constraint firstAttribute="trailing" secondItem="SvU-9E-e88" secondAttribute="trailing" constant="4" id="sJf-gw-4eJ"/>
+                <constraint firstItem="qDP-Sb-B9s" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="xLh-rd-4S2"/>
+            </constraints>
+            <size key="customSize" width="147" height="239"/>
+            <connections>
+                <outlet property="contentImageView" destination="qDP-Sb-B9s" id="hqz-i3-A7d"/>
+                <outlet property="contentTypeImageView" destination="AMP-S8-2c8" id="9Nm-VM-7hM"/>
+                <outlet property="contentTypeLabel" destination="SvU-9E-e88" id="4u5-9G-kMs"/>
+                <outlet property="likeButton" destination="Exv-1A-pbc" id="ldH-hr-Zu1"/>
+                <outlet property="moreOptionButton" destination="7sl-80-VfN" id="MbM-vl-u5K"/>
+                <outlet property="newIconImageView" destination="I5W-T2-NU9" id="deS-5g-OSe"/>
+                <outlet property="titleLabel" destination="Fb1-jc-8Wb" id="lqq-Fm-88v"/>
+            </connections>
+            <point key="canvasLocation" x="82" y="148"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="default_placeholder.png" width="810" height="1080"/>
+        <image name="dir_favorite_selected.png" width="147" height="147"/>
+        <image name="dir_ic_more.png" width="96" height="96"/>
+        <image name="ic_new.png" width="50" height="50"/>
+        <image name="ic_poster.png" width="50" height="50"/>
+    </resources>
+</document>

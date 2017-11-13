@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="LeaderboardRow" customModule="quiz" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i57-Rh-zlC">
+                    <rect key="frame" x="0.0" y="0.0" width="46" height="50"/>
+                    <subviews>
+                        <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qcr-rq-vGl">
+                            <rect key="frame" x="0.0" y="0.0" width="46" height="50"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_winner.png" translatesAutoresizingMaskIntoConstraints="NO" id="FO1-JL-GfE">
+                            <rect key="frame" x="5" y="7" width="35" height="35"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" red="0.44313725490196076" green="0.12549019607843137" blue="0.23921568627450979" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="Qcr-rq-vGl" secondAttribute="trailing" id="Cme-7Q-0m2"/>
+                        <constraint firstItem="Qcr-rq-vGl" firstAttribute="leading" secondItem="i57-Rh-zlC" secondAttribute="leading" id="Ee7-dm-MS6"/>
+                        <constraint firstItem="Qcr-rq-vGl" firstAttribute="top" secondItem="i57-Rh-zlC" secondAttribute="top" id="KUT-XQ-zht"/>
+                        <constraint firstItem="FO1-JL-GfE" firstAttribute="leading" secondItem="i57-Rh-zlC" secondAttribute="leading" constant="5" id="NBH-0s-3xN"/>
+                        <constraint firstAttribute="bottom" secondItem="FO1-JL-GfE" secondAttribute="bottom" constant="8" id="PGp-Nw-MJk"/>
+                        <constraint firstAttribute="width" constant="46" id="Ztt-x5-ZjW"/>
+                        <constraint firstAttribute="bottom" secondItem="Qcr-rq-vGl" secondAttribute="bottom" id="dn8-q1-TAL"/>
+                        <constraint firstItem="FO1-JL-GfE" firstAttribute="top" secondItem="i57-Rh-zlC" secondAttribute="top" constant="7" id="qQS-P4-Oac"/>
+                        <constraint firstAttribute="trailing" secondItem="FO1-JL-GfE" secondAttribute="trailing" constant="6" id="rL2-Bp-2zR"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zPM-pn-jHX">
+                    <rect key="frame" x="54" y="15" width="229" height="21"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d8W-UL-voz">
+                    <rect key="frame" x="287" y="15" width="25" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="25" id="TZA-V4-xkK"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.70196078431372544" green="0.20784313725490194" blue="0.28627450980392155" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="i57-Rh-zlC" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="6fz-Cq-PaO"/>
+                <constraint firstAttribute="bottom" secondItem="i57-Rh-zlC" secondAttribute="bottom" id="96v-Fa-RBZ"/>
+                <constraint firstItem="d8W-UL-voz" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="15" id="GV7-t9-Qeq"/>
+                <constraint firstAttribute="bottom" secondItem="d8W-UL-voz" secondAttribute="bottom" constant="14" id="ItX-Lb-xdB"/>
+                <constraint firstItem="zPM-pn-jHX" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="15" id="NKo-rU-bKh"/>
+                <constraint firstItem="d8W-UL-voz" firstAttribute="leading" secondItem="zPM-pn-jHX" secondAttribute="trailing" constant="4" id="Z9N-lm-mkR"/>
+                <constraint firstAttribute="bottom" secondItem="zPM-pn-jHX" secondAttribute="bottom" constant="14" id="bm9-Wh-hhM"/>
+                <constraint firstAttribute="trailing" secondItem="d8W-UL-voz" secondAttribute="trailing" constant="8" id="mrp-Ib-pCf"/>
+                <constraint firstItem="zPM-pn-jHX" firstAttribute="leading" secondItem="i57-Rh-zlC" secondAttribute="trailing" constant="8" id="nuc-J5-fYW"/>
+                <constraint firstItem="i57-Rh-zlC" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="yjF-iE-LDA"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="leftIconView" destination="i57-Rh-zlC" id="Cwa-lI-go5"/>
+                <outlet property="rankLabel" destination="Qcr-rq-vGl" id="8sY-KJ-OTP"/>
+                <outlet property="scoreLabel" destination="d8W-UL-voz" id="Ftw-PN-u54"/>
+                <outlet property="titleLabel" destination="zPM-pn-jHX" id="UM0-n5-NAm"/>
+                <outlet property="winnerCupImageView" destination="FO1-JL-GfE" id="FTH-4l-EYE"/>
+            </connections>
+            <point key="canvasLocation" x="-33" y="280"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_winner.png" width="112" height="112"/>
+    </resources>
+</document>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="17A365" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FundComaprisonViewController" customModule="mfadvisor" customModuleProvider="target">
+            <connections>
+                <outlet property="compareFundsButton" destination="3Eo-BD-yDx" id="xZ0-6y-zOz"/>
+                <outlet property="fundNameLabel" destination="C4U-e4-HE3" id="BAc-UT-czR"/>
+                <outlet property="fundsScrollView" destination="v5X-eY-5jQ" id="0IK-od-Hfl"/>
+                <outlet property="scrollContentView" destination="4Dv-7a-2KW" id="pdG-4b-fpI"/>
+                <outlet property="scrollContentViewHeight" destination="WYi-k0-1iQ" id="ATZ-f3-l4F"/>
+                <outlet property="view" destination="iN0-l3-epB" id="0Sh-oX-0a1"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C4U-e4-HE3">
+                    <rect key="frame" x="10" y="37" width="302" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="Sh2-id-hnC"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Selected Fund" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="45n-g6-nfO">
+                    <rect key="frame" x="10" y="12" width="302" height="21"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="e2D-HZ-JfO"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v5X-eY-5jQ">
+                    <rect key="frame" x="8" y="66" width="304" height="452"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Dv-7a-2KW">
+                            <rect key="frame" x="0.0" y="0.0" width="304" height="413"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="413" id="WYi-k0-1iQ"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="4Dv-7a-2KW" firstAttribute="top" secondItem="v5X-eY-5jQ" secondAttribute="top" id="HIX-qL-9j8"/>
+                        <constraint firstItem="4Dv-7a-2KW" firstAttribute="leading" secondItem="v5X-eY-5jQ" secondAttribute="leading" id="fSY-FM-7Zb"/>
+                        <constraint firstAttribute="trailing" secondItem="4Dv-7a-2KW" secondAttribute="trailing" id="h1H-ov-SKQ"/>
+                        <constraint firstItem="4Dv-7a-2KW" firstAttribute="width" secondItem="v5X-eY-5jQ" secondAttribute="width" id="hel-Dd-fiw"/>
+                        <constraint firstAttribute="bottom" secondItem="4Dv-7a-2KW" secondAttribute="bottom" id="ofD-YJ-OVC"/>
+                    </constraints>
+                </scrollView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Eo-BD-yDx">
+                    <rect key="frame" x="0.0" y="518" width="320" height="50"/>
+                    <color key="backgroundColor" red="0.5490196078431373" green="0.12156862745098039" blue="0.29803921568627451" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="Pcs-Bn-W0W"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                    <state key="normal" title="COMPARE FUNDS"/>
+                    <connections>
+                        <action selector="clickedOnCompareFunds:" destination="-1" eventType="touchUpInside" id="LKO-ab-sft"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.91764705882352937" green="0.91764705882352937" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="45n-g6-nfO" secondAttribute="trailing" constant="8" id="0zE-Ye-shg"/>
+                <constraint firstAttribute="trailing" secondItem="C4U-e4-HE3" secondAttribute="trailing" constant="8" id="2ui-uS-8lM"/>
+                <constraint firstItem="45n-g6-nfO" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="Clk-Xt-193"/>
+                <constraint firstItem="v5X-eY-5jQ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="DI7-Ve-XLU"/>
+                <constraint firstItem="C4U-e4-HE3" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="NrE-YX-g0I"/>
+                <constraint firstItem="3Eo-BD-yDx" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="OnE-Cs-dOp"/>
+                <constraint firstAttribute="trailing" secondItem="3Eo-BD-yDx" secondAttribute="trailing" id="QiK-7c-8iM"/>
+                <constraint firstAttribute="bottom" secondItem="3Eo-BD-yDx" secondAttribute="bottom" id="ZZB-j6-LL9"/>
+                <constraint firstItem="3Eo-BD-yDx" firstAttribute="top" secondItem="v5X-eY-5jQ" secondAttribute="bottom" id="cmi-wd-8DH"/>
+                <constraint firstItem="v5X-eY-5jQ" firstAttribute="top" secondItem="C4U-e4-HE3" secondAttribute="bottom" constant="8" id="eO1-yz-LRN"/>
+                <constraint firstAttribute="trailing" secondItem="v5X-eY-5jQ" secondAttribute="trailing" constant="8" id="jQO-lt-kz4"/>
+                <constraint firstItem="45n-g6-nfO" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="12" id="r3Q-O4-0eT"/>
+                <constraint firstItem="C4U-e4-HE3" firstAttribute="top" secondItem="45n-g6-nfO" secondAttribute="bottom" constant="4" id="xtA-py-HiK"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

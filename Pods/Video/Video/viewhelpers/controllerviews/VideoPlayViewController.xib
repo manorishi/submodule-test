@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="VideoPlayViewController" customModule="Video" customModuleProvider="target">
+            <connections>
+                <outlet property="videoWebView" destination="iyH-kT-gac" id="VTl-H0-bk2"/>
+                <outlet property="view" destination="iN0-l3-epB" id="DMJ-Lh-Okn"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iyH-kT-gac">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </webView>
+                <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GzP-EE-gHe">
+                    <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="GGw-Wd-9bC"/>
+                        <constraint firstAttribute="width" secondItem="GzP-EE-gHe" secondAttribute="height" multiplier="1:1" id="y7F-NO-aIj"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="15" minY="15" maxX="15" maxY="15"/>
+                    <state key="normal" image="delete.png"/>
+                    <connections>
+                        <action selector="onBackButtonPress:" destination="-1" eventType="touchUpInside" id="N4r-4H-qlE"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="iyH-kT-gac" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="5le-rV-Nhq"/>
+                <constraint firstAttribute="bottom" secondItem="iyH-kT-gac" secondAttribute="bottom" id="6TG-d4-HtR"/>
+                <constraint firstItem="iyH-kT-gac" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="GnV-C7-8T9"/>
+                <constraint firstAttribute="trailing" secondItem="iyH-kT-gac" secondAttribute="trailing" id="JGa-06-Ica"/>
+                <constraint firstItem="GzP-EE-gHe" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Obs-8Q-Tgp"/>
+                <constraint firstItem="GzP-EE-gHe" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="zbW-do-hLP"/>
+            </constraints>
+            <point key="canvasLocation" x="33.5" y="53.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="delete.png" width="50" height="50"/>
+    </resources>
+</document>

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16G29" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="MetaCategoryMaster" representedClassName=".MetaCategoryMaster" syncable="YES">
+        <attribute name="cat_description" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat_icon_ref1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat_id" attributeType="String" syncable="YES"/>
+        <attribute name="cat_image_ref1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat_name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="MetaCategoryQuestions" representedClassName=".MetaCategoryQuestions" syncable="YES">
+        <attribute name="answer" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat_id" attributeType="String" syncable="YES"/>
+        <attribute name="question" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="question_no" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="MetaFundData" representedClassName=".MetaFundData" syncable="YES">
+        <attribute name="compare_icon1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="compare_icon2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="compare_icon3" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="compare_point1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="compare_point2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="compare_point3" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="disclaimer1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="exit_load" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fund_description" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fund_id" attributeType="String" syncable="YES"/>
+        <attribute name="fund_type1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fund_type2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="key_ratio_label1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="key_ratio_label2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="key_ratio_label3" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="liquidity_options" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lockin_period" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="other_fund1_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="other_fund2_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="other_fund3_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="other_fund4_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="product_label" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="product_label_disclaimer" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="riskometer" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="specialty_disclaimer" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="specialty_icon1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="specialty_icon2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="specialty_icon3" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="specialty_line1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="specialty_line2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="specialty_line3" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tenure_line" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="top_image1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="top_image2" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="MetaFundDataLive" representedClassName=".MetaFundDataLive" syncable="YES">
+        <attribute name="alpha" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="as_on_date" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="as_on_date_parameters" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="as_on_date_performance" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="as_on_date_sip" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="benchmark1_year_return" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="benchmark3_months_return" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="benchmark3_year_return" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="benchmark5_year_return" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="benchmark6_months_return" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="beta" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="category_alpha" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="category_avg_maturity" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="category_beta" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="category_mean" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="category_modified_duration" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="category_sharpe" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="category_sortino" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="category_std_dev" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="category_ytm" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="category1_year_return" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="category3_year_return" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="category5_year_return" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="expense_ratio" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="fund_avg_maturity" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="fund_id" attributeType="String" syncable="YES"/>
+        <attribute name="fund_mean" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="fund_modified_duration" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="fund_sharpe" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="fund_sortino" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="fund_std_dev" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="fund_ytm" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="nav" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="pe_ratio" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="return_since_inception" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="return1_year" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="return3_months" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="return3_year" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="return5_year" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="return6_months" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="since_10k_inception" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="sip_benchmark1_year_return" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="sip_benchmark3_year_return" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="sip_benchmark5_year_return" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="sip_return1_year" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="sip_return3_year" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="sip_return5_year" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="MetaFundMaster" representedClassName=".MetaFundMaster" syncable="YES">
+        <attribute name="fund_benchmark_1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fund_benchmark_2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fund_category_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fund_end_date" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="fund_id" attributeType="String" syncable="YES"/>
+        <attribute name="fund_inception_date" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="fund_initials" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fund_manager" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fund_manager_since" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fund_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fund_snapshot" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="MetaFundNameLookup" representedClassName=".MetaFundNameLookup" syncable="YES">
+        <attribute name="fund_id" attributeType="String" syncable="YES"/>
+        <attribute name="fund_slot" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="MetaFundQuestions" representedClassName=".MetaFundQuestions" syncable="YES">
+        <attribute name="answer_bottomline" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="answer_image" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="answer_topline" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="answer1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="answer1_icon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="answer2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="answer2_icon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="answer3" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="answer3_icon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="answer4" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="answer4_icon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fund_id" attributeType="String" syncable="YES"/>
+        <attribute name="question" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="question_icon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="question_no" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="MetaImageHerolineSelection" representedClassName=".MetaImageHerolineSelection" syncable="YES">
+        <attribute name="duration_upto" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="hero_line" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hero_line_type" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="risk" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="MetaMutualFundMinInvestment" representedClassName=".MetaMutualFundMinInvestment" syncable="YES">
+        <attribute name="fund_id" attributeType="String" syncable="YES"/>
+        <attribute name="lumpsum_maximum" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="lumpsum_min_multiple" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="lumpsum_minimum" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="sip_maximum" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="sip_min_multiple" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="sip_minimum" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="MetaMutualFundSelection" representedClassName=".MetaMutualFundSelection" syncable="YES">
+        <attribute name="id" attributeType="String" syncable="YES"/>
+        <attribute name="lockin_flag" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="max_age" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="max_duration" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="min_age" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="min_duration" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="risk_appetite" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="slot1" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="slot2" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="slot3" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="slot4" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="slot5" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="slot6" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="MetaOtherFundData" representedClassName=".MetaOtherFundData" syncable="YES">
+        <attribute name="alpha" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="beta" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="entry_load" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="exit_load" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="expense_ratio" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="fund_avg_maturity" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="fund_mean" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="fund_modified_duration" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="fund_selection_assurance" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fund_sharpe" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="fund_sortino" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="fund_std_dev" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="fund_ytm" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="liquidity_options" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lockin_period" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="other_fund_description" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="other_fund_id" attributeType="String" syncable="YES"/>
+        <attribute name="pe_ratio" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="portfolio_highlights" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="product_label" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="return1_year" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="return3_months" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="return3_year" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="return5_year" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="return6_months" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="returns_since_inception" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="risk_highlights" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="riskometer" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sharpe_ratio" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="since_10k_inception" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="MetaOtherFundMaster" representedClassName=".MetaOtherFundMaster" syncable="YES">
+        <attribute name="benchmark1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="benchmark2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fund_category_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fund_manager" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fund_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fund_snapshot" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="other_fund_id" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="MetaPopularFundsConfig" representedClassName=".MetaPopularFundsConfig" syncable="YES">
+        <attribute name="fund_id" attributeType="String" syncable="YES"/>
+        <attribute name="position" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="MetaPresentationDisplayData" representedClassName=".MetaPresentationDisplayData" syncable="YES">
+        <attribute name="general_presentation_top_image1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="liquidity_heading" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="liquidity_icon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="liquidity_intro" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="presentation_page2_disclaimer" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="presentation_page2_heading" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="presentation_page3_disclaimer" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="presentation_page3_heading" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="product_label_icon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="selection_page1_disclaimer" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="selection_page2_disclaimer" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="selection_page3_disclaimer" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="suggestion_heading" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tenure_heading" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tenure_icon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tenure_intro" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="MFNavData" representedClassName="MFNavData" syncable="YES">
+        <attribute name="benchmark_nav_value" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="day" optional="YES" attributeType="Integer 16" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="fund_id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="fund_nav_value" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="month" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="year" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="MetaCategoryMaster" positionX="-63" positionY="-18" width="128" height="120"/>
+        <element name="MetaCategoryQuestions" positionX="-36" positionY="9" width="128" height="105"/>
+        <element name="MetaFundData" positionX="27" positionY="72" width="128" height="555"/>
+        <element name="MetaFundDataLive" positionX="189" positionY="117" width="128" height="750"/>
+        <element name="MetaFundMaster" positionX="18" positionY="63" width="128" height="210"/>
+        <element name="MetaFundNameLookup" positionX="36" positionY="81" width="128" height="75"/>
+        <element name="MetaFundQuestions" positionX="36" positionY="81" width="128" height="270"/>
+        <element name="MetaImageHerolineSelection" positionX="18" positionY="63" width="128" height="120"/>
+        <element name="MetaMutualFundMinInvestment" positionX="9" positionY="54" width="128" height="150"/>
+        <element name="MetaMutualFundSelection" positionX="-9" positionY="36" width="128" height="240"/>
+        <element name="MetaOtherFundData" positionX="-18" positionY="27" width="128" height="495"/>
+        <element name="MetaOtherFundMaster" positionX="0" positionY="45" width="128" height="150"/>
+        <element name="MetaPopularFundsConfig" positionX="-54" positionY="-9" width="128" height="75"/>
+        <element name="MetaPresentationDisplayData" positionX="0" positionY="45" width="128" height="285"/>
+        <element name="MFNavData" positionX="63" positionY="135" width="128" height="150"/>
+    </elements>
+</model>

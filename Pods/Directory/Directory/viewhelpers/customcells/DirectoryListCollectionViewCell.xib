@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="" id="gTV-IL-0wX" customClass="DirectoryListCollectionViewCell" customModule="Directory" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="135"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="135"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="default_placeholder.png" translatesAutoresizingMaskIntoConstraints="NO" id="mVS-nx-SEv">
+                        <rect key="frame" x="4" y="4" width="127" height="127"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="mVS-nx-SEv" secondAttribute="height" multiplier="1:1" id="rcb-aK-53f"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Poster" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TOY-qO-JtD">
+                        <rect key="frame" x="140" y="7" width="172" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="qoM-Sc-s8D"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c2F-N6-bJx">
+                        <rect key="frame" x="140" y="30" width="172" height="0.0"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="34" id="R8S-bp-MBc"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wI1-7g-Uvo">
+                        <rect key="frame" x="232" y="95" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="87M-Uv-aWF"/>
+                            <constraint firstAttribute="width" secondItem="wI1-7g-Uvo" secondAttribute="height" multiplier="1:1" id="tv0-i6-bpz"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <inset key="imageEdgeInsets" minX="2" minY="2" maxX="2" maxY="2"/>
+                        <state key="normal" image="dir_favorite_selected.png">
+                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KnW-wG-M2c">
+                        <rect key="frame" x="280" y="95" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="cZT-f1-QGi"/>
+                            <constraint firstAttribute="width" secondItem="KnW-wG-M2c" secondAttribute="height" multiplier="1:1" id="zqG-Vl-ihK"/>
+                        </constraints>
+                        <inset key="imageEdgeInsets" minX="2" minY="2" maxX="2" maxY="2"/>
+                        <state key="normal" image="dir_ic_more.png">
+                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                        </state>
+                    </button>
+                    <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_poster.png" translatesAutoresizingMaskIntoConstraints="NO" id="Hab-4e-yY5">
+                        <rect key="frame" x="88" y="12" width="35" height="35"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="35" id="Ec0-bV-Q1h"/>
+                            <constraint firstAttribute="width" constant="35" id="PSj-Hp-H1G"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_new.png" translatesAutoresizingMaskIntoConstraints="NO" id="MDw-H6-d6g">
+                        <rect key="frame" x="4" y="4" width="45" height="45"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="45" id="gAN-fj-ecX"/>
+                            <constraint firstAttribute="width" constant="45" id="laT-sb-J72"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MJy-nH-9Wh">
+                        <rect key="frame" x="140" y="32" width="172" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="byU-nm-ZIr"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="mVS-nx-SEv" secondAttribute="bottom" constant="4" id="1Pa-i4-1IQ"/>
+                <constraint firstItem="mVS-nx-SEv" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="4" id="2Hl-09-g5D"/>
+                <constraint firstAttribute="bottom" secondItem="wI1-7g-Uvo" secondAttribute="bottom" id="5gT-mt-Ih0"/>
+                <constraint firstItem="MJy-nH-9Wh" firstAttribute="top" secondItem="c2F-N6-bJx" secondAttribute="bottom" constant="2" id="69f-z0-BMD"/>
+                <constraint firstAttribute="trailing" secondItem="MJy-nH-9Wh" secondAttribute="trailing" constant="8" id="99D-Qn-Bz0"/>
+                <constraint firstAttribute="bottom" secondItem="KnW-wG-M2c" secondAttribute="bottom" id="AED-xe-hnt"/>
+                <constraint firstItem="TOY-qO-JtD" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="7" id="GfU-DN-qCi"/>
+                <constraint firstItem="mVS-nx-SEv" firstAttribute="top" secondItem="Hab-4e-yY5" secondAttribute="top" constant="-8" id="Qfx-K1-ALQ"/>
+                <constraint firstItem="MDw-H6-d6g" firstAttribute="top" secondItem="mVS-nx-SEv" secondAttribute="top" id="Rfy-ny-vri"/>
+                <constraint firstAttribute="trailing" secondItem="KnW-wG-M2c" secondAttribute="trailing" id="WPv-YG-I94"/>
+                <constraint firstItem="mVS-nx-SEv" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="4" id="XTH-x0-VbZ"/>
+                <constraint firstItem="c2F-N6-bJx" firstAttribute="leading" secondItem="mVS-nx-SEv" secondAttribute="trailing" constant="9" id="Zx9-9B-Lx5"/>
+                <constraint firstAttribute="trailing" secondItem="c2F-N6-bJx" secondAttribute="trailing" constant="8" id="eLA-KC-OPf"/>
+                <constraint firstItem="TOY-qO-JtD" firstAttribute="leading" secondItem="mVS-nx-SEv" secondAttribute="trailing" constant="9" id="f1Z-65-cjr"/>
+                <constraint firstAttribute="trailing" secondItem="TOY-qO-JtD" secondAttribute="trailing" constant="8" id="gGA-5n-qIF"/>
+                <constraint firstItem="KnW-wG-M2c" firstAttribute="leading" secondItem="wI1-7g-Uvo" secondAttribute="trailing" constant="8" id="ld9-Vq-YH2"/>
+                <constraint firstItem="c2F-N6-bJx" firstAttribute="top" secondItem="TOY-qO-JtD" secondAttribute="bottom" constant="2" id="m0z-7g-SiN"/>
+                <constraint firstItem="Hab-4e-yY5" firstAttribute="trailing" secondItem="mVS-nx-SEv" secondAttribute="trailing" constant="-8" id="pHD-TM-5RD"/>
+                <constraint firstItem="MJy-nH-9Wh" firstAttribute="leading" secondItem="mVS-nx-SEv" secondAttribute="trailing" constant="9" id="pHz-Uf-2VV"/>
+                <constraint firstItem="MDw-H6-d6g" firstAttribute="leading" secondItem="mVS-nx-SEv" secondAttribute="leading" id="vcd-Nl-SrB"/>
+            </constraints>
+            <size key="customSize" width="350" height="133"/>
+            <connections>
+                <outlet property="contentDescriptionLabel" destination="MJy-nH-9Wh" id="4zH-dH-Goj"/>
+                <outlet property="contentImageView" destination="mVS-nx-SEv" id="TQy-Bv-tzQ"/>
+                <outlet property="contentTitleLabel" destination="c2F-N6-bJx" id="jnT-pi-g6Q"/>
+                <outlet property="contentTypeImageView" destination="Hab-4e-yY5" id="eLU-jo-kgl"/>
+                <outlet property="contentTypeLabel" destination="TOY-qO-JtD" id="ZBz-7h-yZf"/>
+                <outlet property="likeButton" destination="wI1-7g-Uvo" id="4Jr-hy-Xrk"/>
+                <outlet property="moreOptionButton" destination="KnW-wG-M2c" id="VrN-JC-3HE"/>
+                <outlet property="newIconImageView" destination="MDw-H6-d6g" id="oxm-t5-dL0"/>
+            </connections>
+            <point key="canvasLocation" x="-18" y="-20.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="default_placeholder.png" width="810" height="1080"/>
+        <image name="dir_favorite_selected.png" width="147" height="147"/>
+        <image name="dir_ic_more.png" width="96" height="96"/>
+        <image name="ic_new.png" width="50" height="50"/>
+        <image name="ic_poster.png" width="50" height="50"/>
+    </resources>
+</document>

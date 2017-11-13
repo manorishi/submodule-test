@@ -1,0 +1,36 @@
+{
+  "name": "Video",
+  "version": "1.0.0",
+  "summary": "Video module of the smartsell ios app",
+  "description": "video module of smartsell ios app",
+  "homepage": "http://enparadigm.com/",
+  "license": "ENPARADIGM",
+  "authors": {
+    "Kunal Singh": "kunal.singh@cybrilla.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "git@vault.cybrilla.com:enparadigm/video.git",
+    "tag": "1.0.0"
+  },
+  "source_files": [
+    "Video",
+    "Video/**/*.{h,m,swift}"
+  ],
+  "resources": "Video/**/*.{plist,png,json,strings,xib,jpg}",
+  "resource_bundles": {
+    "Video": [
+      "Video/**/*.{xib,png,jpg}"
+    ]
+  },
+  "pod_target_xcconfig": {
+    "SWIFT_VERSION": "3"
+  },
+  "dependencies": {
+    "Core": [
+
+    ]
+  }
+}

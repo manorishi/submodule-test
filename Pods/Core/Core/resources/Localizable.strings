@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  Core
+
+  Created by Anurag Dake on 21/03/17.
+  Copyright © 2017 Enparadigm. All rights reserved.
+*/
+
+"default_network_error" = "Server encountered an error";
+"invalid_status_code" = "Invalid status code";

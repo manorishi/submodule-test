@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HelpAlertView" customModule="mfadvisor" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lB6-m9-aoy">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cEd-2x-C8i">
+                            <rect key="frame" x="16" y="124" width="288" height="320"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Not sure about customer's risk appetite?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hl6-IS-Yxi">
+                                    <rect key="frame" x="16" y="16" width="256" height="36"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="Glc-ue-5i3"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stock Market Exposure" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gjy-m6-blK">
+                                    <rect key="frame" x="16" y="76" width="256" height="21"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="21" id="gyc-zL-q7B"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Short-term Negative" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a3I-jy-AES">
+                                    <rect key="frame" x="16" y="174" width="256" height="21"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="21" id="L8n-L6-lNK"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dgc-iE-kEd">
+                                    <rect key="frame" x="16" y="272" width="115" height="40"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="40" id="Ni7-Rq-CCR"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="13"/>
+                                    <state key="normal" title="CANCEL">
+                                        <color key="titleColor" red="0.68235294120000001" green="0.1529411765" blue="0.37254901959999998" alpha="1" colorSpace="calibratedRGB"/>
+                                    </state>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qd8-he-j2e">
+                                    <rect key="frame" x="147" y="272" width="125" height="40"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="40" id="deu-9A-Tcp"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="13"/>
+                                    <state key="normal" title="SET RISK APPETITE">
+                                        <color key="titleColor" red="0.68235294120000001" green="0.1529411765" blue="0.37254901959999998" alpha="1" colorSpace="calibratedRGB"/>
+                                    </state>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uih-B8-df6" customClass="FundSelectionButton" customModule="mfadvisor" customModuleProvider="target">
+                                    <rect key="frame" x="16" y="105" width="87" height="50"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="50" id="inO-pM-4h2"/>
+                                        <constraint firstAttribute="width" constant="87" id="vMQ-B5-3Gl"/>
+                                    </constraints>
+                                    <state key="normal" title="Maximize gains">
+                                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8nM-Xl-gHa" customClass="FundSelectionButton" customModule="mfadvisor" customModuleProvider="target">
+                                    <rect key="frame" x="111" y="105" width="87" height="50"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="87" id="JGu-Yq-F4g"/>
+                                        <constraint firstAttribute="height" constant="50" id="gZ0-bq-gOv"/>
+                                    </constraints>
+                                    <state key="normal" title="Minimize losses">
+                                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qDg-qf-gRX" customClass="FundSelectionButton" customModule="mfadvisor" customModuleProvider="target">
+                                    <rect key="frame" x="132" y="203" width="67" height="50"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="67" id="ZRo-Jl-oge"/>
+                                        <constraint firstAttribute="height" constant="50" id="ndt-Ye-o0K"/>
+                                    </constraints>
+                                    <state key="normal" title="Sell some">
+                                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QwD-wP-GRz" customClass="FundSelectionButton" customModule="mfadvisor" customModuleProvider="target">
+                                    <rect key="frame" x="207" y="203" width="67" height="50"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="50" id="lpx-Yx-8MR"/>
+                                        <constraint firstAttribute="width" constant="67" id="qo0-xH-ErC"/>
+                                    </constraints>
+                                    <state key="normal" title="Keep all">
+                                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OnJ-rj-WYN" customClass="FundSelectionButton" customModule="mfadvisor" customModuleProvider="target">
+                                    <rect key="frame" x="206" y="105" width="66" height="44"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="66" id="2Z2-kc-Ng1"/>
+                                        <constraint firstAttribute="height" constant="44" id="TjK-oO-jVq"/>
+                                    </constraints>
+                                    <state key="normal" title="Both equally">
+                                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I5X-je-A9b" customClass="FundSelectionButton" customModule="mfadvisor" customModuleProvider="target">
+                                    <rect key="frame" x="16" y="203" width="108" height="50"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="50" id="Nkj-ma-b8E"/>
+                                        <constraint firstAttribute="width" constant="108" id="q5H-ry-Fyh"/>
+                                    </constraints>
+                                    <state key="normal" title="Sell all investments">
+                                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="a3I-jy-AES" secondAttribute="trailing" constant="16" id="2dF-of-X5y"/>
+                                <constraint firstAttribute="width" constant="288" id="44B-06-9eR"/>
+                                <constraint firstItem="OnJ-rj-WYN" firstAttribute="leading" secondItem="8nM-Xl-gHa" secondAttribute="trailing" constant="8" id="4NH-cT-oAg"/>
+                                <constraint firstItem="Qd8-he-j2e" firstAttribute="leading" secondItem="Dgc-iE-kEd" secondAttribute="trailing" constant="16" id="ECx-qa-xKP"/>
+                                <constraint firstAttribute="trailing" secondItem="hl6-IS-Yxi" secondAttribute="trailing" constant="16" id="IgR-CP-nSq"/>
+                                <constraint firstAttribute="bottom" secondItem="Dgc-iE-kEd" secondAttribute="bottom" constant="8" id="KfU-wb-iIZ"/>
+                                <constraint firstItem="hl6-IS-Yxi" firstAttribute="leading" secondItem="cEd-2x-C8i" secondAttribute="leading" constant="16" id="Km3-MQ-c5I"/>
+                                <constraint firstAttribute="trailing" secondItem="gjy-m6-blK" secondAttribute="trailing" constant="16" id="LM1-Ee-iSY"/>
+                                <constraint firstItem="hl6-IS-Yxi" firstAttribute="top" secondItem="cEd-2x-C8i" secondAttribute="top" constant="16" id="N2l-LN-jJw"/>
+                                <constraint firstItem="Uih-B8-df6" firstAttribute="top" secondItem="gjy-m6-blK" secondAttribute="bottom" constant="8" id="P63-4a-naT"/>
+                                <constraint firstItem="OnJ-rj-WYN" firstAttribute="top" secondItem="gjy-m6-blK" secondAttribute="bottom" constant="8" id="Pl1-rn-7bX"/>
+                                <constraint firstItem="qDg-qf-gRX" firstAttribute="top" secondItem="a3I-jy-AES" secondAttribute="bottom" constant="8" id="QAH-Vr-yle"/>
+                                <constraint firstItem="QwD-wP-GRz" firstAttribute="leading" secondItem="qDg-qf-gRX" secondAttribute="trailing" constant="8" id="QMe-YH-2ha"/>
+                                <constraint firstItem="Uih-B8-df6" firstAttribute="leading" secondItem="cEd-2x-C8i" secondAttribute="leading" constant="16" id="R18-v7-jNL"/>
+                                <constraint firstItem="a3I-jy-AES" firstAttribute="leading" secondItem="cEd-2x-C8i" secondAttribute="leading" constant="16" id="WfJ-wU-wWC"/>
+                                <constraint firstItem="Dgc-iE-kEd" firstAttribute="leading" secondItem="cEd-2x-C8i" secondAttribute="leading" constant="16" id="XQQ-wX-bM9"/>
+                                <constraint firstItem="I5X-je-A9b" firstAttribute="top" secondItem="a3I-jy-AES" secondAttribute="bottom" constant="8" id="aUW-hC-Xqw"/>
+                                <constraint firstItem="I5X-je-A9b" firstAttribute="leading" secondItem="cEd-2x-C8i" secondAttribute="leading" constant="16" id="dw3-IB-HqP"/>
+                                <constraint firstItem="QwD-wP-GRz" firstAttribute="top" secondItem="a3I-jy-AES" secondAttribute="bottom" constant="8" id="e5F-lA-Ewq"/>
+                                <constraint firstAttribute="height" constant="320" id="eMq-Q2-npk"/>
+                                <constraint firstItem="8nM-Xl-gHa" firstAttribute="leading" secondItem="Uih-B8-df6" secondAttribute="trailing" constant="8" id="eoL-sk-H9f"/>
+                                <constraint firstItem="8nM-Xl-gHa" firstAttribute="top" secondItem="gjy-m6-blK" secondAttribute="bottom" constant="8" id="fYJ-OR-bxY"/>
+                                <constraint firstItem="gjy-m6-blK" firstAttribute="leading" secondItem="cEd-2x-C8i" secondAttribute="leading" constant="16" id="jKL-CT-9hI"/>
+                                <constraint firstItem="qDg-qf-gRX" firstAttribute="leading" secondItem="I5X-je-A9b" secondAttribute="trailing" constant="8" id="jra-jz-LCH"/>
+                                <constraint firstItem="a3I-jy-AES" firstAttribute="top" secondItem="8nM-Xl-gHa" secondAttribute="bottom" constant="19" id="nST-9d-b9z"/>
+                                <constraint firstAttribute="trailing" secondItem="Qd8-he-j2e" secondAttribute="trailing" constant="16" id="ncH-yk-HOA"/>
+                                <constraint firstItem="gjy-m6-blK" firstAttribute="top" secondItem="hl6-IS-Yxi" secondAttribute="bottom" constant="24" id="p5e-UA-G21"/>
+                                <constraint firstAttribute="bottom" secondItem="Qd8-he-j2e" secondAttribute="bottom" constant="8" id="yDN-7X-vhH"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="cEd-2x-C8i" firstAttribute="centerX" secondItem="lB6-m9-aoy" secondAttribute="centerX" id="sMw-Qg-BnV"/>
+                        <constraint firstItem="cEd-2x-C8i" firstAttribute="centerY" secondItem="lB6-m9-aoy" secondAttribute="centerY" id="wdq-yv-mdd"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="lB6-m9-aoy" secondAttribute="trailing" id="CeZ-qF-IEZ"/>
+                <constraint firstAttribute="bottom" secondItem="lB6-m9-aoy" secondAttribute="bottom" id="O72-Ml-KNA"/>
+                <constraint firstItem="lB6-m9-aoy" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="h0p-cL-8fi"/>
+                <constraint firstItem="lB6-m9-aoy" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="hnS-XB-eFr"/>
+            </constraints>
+            <connections>
+                <outlet property="alertView" destination="cEd-2x-C8i" id="Z8K-YM-jDM"/>
+                <outlet property="bothEquallyButton" destination="OnJ-rj-WYN" id="nQD-gh-BaL"/>
+                <outlet property="cancelButton" destination="Dgc-iE-kEd" id="dbP-cr-sec"/>
+                <outlet property="fullScreenView" destination="lB6-m9-aoy" id="rau-1W-y3I"/>
+                <outlet property="keepAllButton" destination="QwD-wP-GRz" id="FM5-jb-6V2"/>
+                <outlet property="maxGainButton" destination="Uih-B8-df6" id="yNS-Tt-IKT"/>
+                <outlet property="minLossButton" destination="8nM-Xl-gHa" id="koN-AB-fFR"/>
+                <outlet property="okButton" destination="Qd8-he-j2e" id="Izy-eP-zZG"/>
+                <outlet property="sellAllInvestmentButton" destination="I5X-je-A9b" id="xvF-3v-bD9"/>
+                <outlet property="sellSomeButton" destination="qDg-qf-gRX" id="zoF-Rw-Pan"/>
+            </connections>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16G29" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Achievement" representedClassName=".Achievement" syncable="YES">
+        <attribute name="item_count" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="level" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="ContentType" representedClassName=".ContentType" syncable="YES">
+        <attribute name="content_type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="Directory" representedClassName=".Directory" syncable="YES">
+        <attribute name="confidential" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="directory_description" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="display_id_type" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="image_version" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="thumbnail_url" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="DirectoryDisplayType" representedClassName=".DirectoryDisplayType" syncable="YES">
+        <attribute name="content_type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="Favourite" representedClassName=".Favourite" syncable="YES">
+        <attribute name="content_id" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" indexed="YES" syncable="YES"/>
+        <attribute name="content_type_id" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="is_favourite" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="is_synced" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="MFNotification" representedClassName=".MFNotification" syncable="YES">
+        <attribute name="body" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="NewItemMapper" representedClassName=".NewItemMapper" syncable="YES">
+        <attribute name="content_id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="content_type_id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="sequence" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="Pdf" representedClassName=".Pdf" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="image_version" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pdf_description" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pdf_url" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pdf_version" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="share_text" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="thumbnail_url" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Poster" representedClassName=".Poster" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="image_version" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="poster_description" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="share_text" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="thumbnail_url" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="PosterImageElement" representedClassName=".PosterImageElement" syncable="YES">
+        <attribute name="height" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="keep_aspect_ratio" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="left_margin" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="on_by_default" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="poster_id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="shape" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="top_margin" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="width" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="PosterTextElement" representedClassName=".PosterTextElement" syncable="YES">
+        <attribute name="default_text" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="font_color" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="font_family" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="font_size" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="left_margin" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="on_by_default" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="poster_id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="right_margin" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="text_alignment" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="top_margin" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="UserAchievement" representedClassName=".UserAchievement" syncable="YES">
+        <attribute name="achieved_at" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="achievement_level" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="is_synced" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="UserDirectoryContentMapper" representedClassName=".UserDirectoryContentMapper" syncable="YES">
+        <attribute name="content_id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="content_type_id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="directory_id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="sequence" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="user_type_id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="UserHomeBannerMapper" representedClassName=".UserHomeBannerMapper" syncable="YES">
+        <attribute name="action_target" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="action_text" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="banner_description" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="carosel_type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="extra_data" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image_url" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="item_id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="item_type" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_type_id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="UserHomeDirectoryContentMapper" representedClassName=".UserHomeDirectoryContentMapper" syncable="YES">
+        <attribute name="content_id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="content_type_id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="sequence" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="user_type_id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="UserHomePageMapper" representedClassName=".UserHomePageMapper" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="item_id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="item_type" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="sequence" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="user_type_id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="Video" representedClassName=".Video" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="image_version" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="share_text" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="thumbnail_url" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="video_description" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="video_url" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Achievement" positionX="-9" positionY="135" width="128" height="105"/>
+        <element name="ContentType" positionX="18" positionY="135" width="128" height="75"/>
+        <element name="Directory" positionX="36" positionY="153" width="128" height="150"/>
+        <element name="DirectoryDisplayType" positionX="-9" positionY="117" width="128" height="75"/>
+        <element name="Favourite" positionX="-9" positionY="135" width="128" height="105"/>
+        <element name="MFNotification" positionX="-9" positionY="135" width="128" height="105"/>
+        <element name="NewItemMapper" positionX="-63" positionY="-18" width="128" height="105"/>
+        <element name="Pdf" positionX="-36" positionY="63" width="128" height="165"/>
+        <element name="Poster" positionX="-54" positionY="18" width="128" height="135"/>
+        <element name="PosterImageElement" positionX="27" positionY="180" width="128" height="180"/>
+        <element name="PosterTextElement" positionX="18" positionY="144" width="128" height="210"/>
+        <element name="UserAchievement" positionX="-9" positionY="135" width="128" height="90"/>
+        <element name="UserDirectoryContentMapper" positionX="0" positionY="126" width="128" height="135"/>
+        <element name="UserHomeBannerMapper" positionX="27" positionY="171" width="128" height="195"/>
+        <element name="UserHomeDirectoryContentMapper" positionX="9" positionY="135" width="128" height="120"/>
+        <element name="UserHomePageMapper" positionX="18" positionY="162" width="128" height="120"/>
+        <element name="Video" positionX="0" positionY="108" width="128" height="150"/>
+    </elements>
+</model>

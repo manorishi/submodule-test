@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FundCompareDetailViewController" customModule="mfadvisor" customModuleProvider="target">
+            <connections>
+                <outlet property="fundCompareScrollView" destination="1kt-Dm-4hC" id="6LU-Hp-PnV"/>
+                <outlet property="scrollContentView" destination="kqW-AT-sVI" id="vmW-el-fn8"/>
+                <outlet property="scrollContentViewHeight" destination="zTh-1u-jr6" id="5Fr-q3-xAE"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1kt-Dm-4hC">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <subviews>
+                        <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kqW-AT-sVI">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="568" id="zTh-1u-jr6"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="kqW-AT-sVI" firstAttribute="top" secondItem="1kt-Dm-4hC" secondAttribute="top" id="BCn-kg-ytc"/>
+                        <constraint firstAttribute="bottom" secondItem="kqW-AT-sVI" secondAttribute="bottom" id="Ch8-2h-bFG"/>
+                        <constraint firstAttribute="trailing" secondItem="kqW-AT-sVI" secondAttribute="trailing" id="Wcc-cX-gwc"/>
+                        <constraint firstItem="kqW-AT-sVI" firstAttribute="width" secondItem="1kt-Dm-4hC" secondAttribute="width" id="Wz8-4s-zLR"/>
+                        <constraint firstItem="kqW-AT-sVI" firstAttribute="leading" secondItem="1kt-Dm-4hC" secondAttribute="leading" id="iY4-DY-ndF"/>
+                    </constraints>
+                </scrollView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iCK-h8-n0B">
+                    <rect key="frame" x="267" y="8" width="45" height="45"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="iCK-h8-n0B" secondAttribute="height" multiplier="1:1" id="PUk-Nh-z2m"/>
+                        <constraint firstAttribute="width" constant="45" id="Vah-SP-8bQ"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="8" minY="8" maxX="8" maxY="8"/>
+                    <state key="normal" title="Button" image="close_button.png"/>
+                    <connections>
+                        <action selector="onCloseButtonTap:" destination="-1" eventType="touchUpInside" id="yOG-gN-wLn"/>
+                    </connections>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="1kt-Dm-4hC" secondAttribute="trailing" id="2gw-2j-UTC"/>
+                <constraint firstAttribute="trailing" secondItem="iCK-h8-n0B" secondAttribute="trailing" constant="8" id="4P4-A0-8cW"/>
+                <constraint firstItem="iCK-h8-n0B" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="8" id="CrJ-Em-hlQ"/>
+                <constraint firstItem="1kt-Dm-4hC" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="lHN-OV-I5r"/>
+                <constraint firstAttribute="bottom" secondItem="1kt-Dm-4hC" secondAttribute="bottom" id="o3M-8D-xJJ"/>
+                <constraint firstItem="1kt-Dm-4hC" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="x6C-Pc-slx"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="close_button.png" width="102" height="102"/>
+    </resources>
+</document>

@@ -1,0 +1,51 @@
+{
+  "name": "mfadvisor",
+  "version": "1.0.0",
+  "summary": "Mutual Fund advisor module of the smartsell ios app",
+  "description": "mf advisor module of smartsell ios app",
+  "homepage": "http://enparadigm.com/",
+  "license": "ENPARADIGM",
+  "authors": {
+    "Kunal Singh": "kunal.singh@cybrilla.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "git@vault.cybrilla.com:enparadigm/mfadvisor.git",
+    "tag": "1.0.0"
+  },
+  "source_files": [
+    "mfadvisor",
+    "mfadvisor/**/*.{h,m,swift}"
+  ],
+  "resources": "mfadvisor/**/*.{plist,png,jpg,json,strings,xib,xcdatamodeld}",
+  "resource_bundles": {
+    "mfadvisor": [
+      "mfadvisor/**/*.{xib,png,strings,jpg}"
+    ]
+  },
+  "pod_target_xcconfig": {
+    "SWIFT_VERSION": "3"
+  },
+  "dependencies": {
+    "Core": [
+
+    ],
+    "XLPagerTabStrip": [
+
+    ],
+    "PDFGenerator": [
+
+    ],
+    "DropDown": [
+
+    ],
+    "Kanna": [
+
+    ],
+    "Floaty": [
+
+    ]
+  }
+}

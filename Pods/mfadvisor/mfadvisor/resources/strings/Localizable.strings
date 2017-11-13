@@ -1,0 +1,100 @@
+/* 
+  Localizable.strings
+  mfadvisor
+
+  Created by Apple on 04/05/17.
+  Copyright © 2017 Enparadigm. All rights reserved.
+*/
+"SALES_PITCH_FAQ" = "Sales Pitch & FAQ";
+"PRESENTATION_SHOW_SHARE" = "Presentation to show / Share";
+"DETAILED_PERFORMANCE_DATA" = "Detailed Performance Data";
+"FUND_COMPARISON" = "Fund Comparison";
+"CALCULATE_SWP" = "Calculate SWP";
+"CALCULATE_SIP" = "Calculate SIP";
+"POPULAR_FUNDS" = "Popular Funds";
+"EXPENSE_RATIO" = "Expense Ratio";
+"WHAT_DETAILS_TO_INCLUDE" = "What details to include in the snapshot?";
+"SELECT_RELEVANT_FUNDS" = "Select Relevant Competitor Funds";
+
+"SALES_PITCH" = "FAQ";
+"DETAILED_PERFORMANCE" = "Detailed Performance";
+"RETURN_AND_RATIO" = "RETURNS & RATIOS";
+"COMPARE_FUNDS" = "COMPARE FUNDS";
+"CREATE_PRESENTATION" = "CREATE PRESENTATION";
+"SWP_CALCULATOR" = "SWP CALCULATOR";
+"SIP_CALCULATOR" = "SIP CALCULATOR";
+"1_YEAR_PERFORMANCE" = "1 Year Performance";
+"3_YEAR_PERFORMANCE" = "3 Year Performance";
+"5_YEAR_PERFORMANCE" = "5 Year Performance";
+"3_MONTHS_PERFORMANCE" = "3 Months Performance";
+"6_MONTHS_PERFORMANCE" = "6 Months Performance";
+"3_MONTHS" = "3 Months";
+"6_MONTHS" = "6 Months";
+"1_YEAR" = "1 Year";
+"3_YEAR" = "3 Year";
+"5_YEAR" = "5 Year";
+"PERFORMANCE_SNAPSHOT" = "Performance Snapshot";
+"FUND_COMPARISON" = "Fund Comparison";
+"EXIT_LOAD" = "Exit Load";
+"KEY_RATIOS" = "Key Ratios";
+"POINTS_TO_NOTE" = "Points to Note";
+"EXPENSE_RATIO" = "Expense Ratio";
+"BETA" = "Beta";
+"PAGE1_HEROLINE" = "A personalized investment presentation";
+"CREATE_PDF_FILE" = "Creating pdf file";
+"INTERNET_ERROR_MSG" = "Internet connection not available";
+
+
+"monthly_investment" = "Monthly Investment";
+"target_amount" = "Target Amount";
+
+"monthly_investment_error" = "Monthly Investment should be between ₹500 - ₹10,00,000";
+"monthly_investment_multiple_error" = "Monthly Investment should be multiple of 100";
+"target_amount_error" = "Target Amount should be between ₹1,00,000 - ₹1,00,00,000";
+"target_amount_multiple_error" = "Target Amount should be multiple of 1000";
+"valid_years_error" = "Year(s) 0 - 30";
+"valid_months_error" = "Month(s) 0 - 11";
+"valid_months_for_0_years_error" = "Month(s) 2 - 11";
+"disclaimer_text" = "Disclaimer: This is an illustration based on an assumption of %@% rreturns. The illustration does not reflect any particular scheme offered by Axis AMC. This should not be construed as an advice for investing in any particular scheme.";
+
+
+
+//calculators
+"sip_calculations" = "SIP Calculation for";
+"swp_calculations" = "SWP Calculation for";
+"calculation_highilights" = "Calculation Highlights";
+"detailed_table" = "Detailed Table";
+
+"sip_period" = "SIP Period";
+"sip_amount" = "SIP Amount";
+"total_investment" = "Total Investment";
+"scheme_market_value" = "Scheme Market Value";
+"scheme_returns" = "Scheme Returns";
+"benchmark_value" = "Benchmark Value";
+"benchmark_returns" = "Benchmark Returns";
+
+"swp_period" = "SWP Period";
+"initial_investment" = "Initial Investment";
+"regular_withdrawal" = "Regular Withdrawal";
+"total_withdrawn" = "Total Withdrawn";
+
+"swp_value" = "SWP Value";
+"sip_value" = "SIP Value";
+"sip_amount_error" = "Valid range ₹1,000 - ₹20,00,00,000";
+"withdraw_amount_error" = "Can't be greater than Starting Capital amount";
+"starting_capital_error" = "Valid range ₹5,000 - ₹20,00,00,000";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

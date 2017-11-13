@@ -1,0 +1,20 @@
+/* 
+  Localizable.strings
+  quiz
+
+  Created by Sunil Sharma on 9/6/17.
+  Copyright © 2017 Cybrilla Technologies. All rights reserved.
+*/
+
+"take_challenge" = "TAKE THE CHALLENGE";
+"review_result" = "REVIEW RESULT";
+"great_job" = "Great Job";
+"good_job" = "Good Job";
+"you_can_do_better" = "You can do better";
+"answer" = "Answers";
+"ok" = "Ok";
+"completed_at" = "Complete At";
+"score" = "Score";
+"weekly_challenge" = "Weekly LeaderBoard";
+"monthly_challenge" = "Monthly LeaderBoard";
+"daily_challenge" = "Daily LeaderBoard";

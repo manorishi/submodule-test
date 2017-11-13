@@ -1,0 +1,80 @@
+/* 
+  Localizable.strings
+  licsuperagent
+
+  Created by Anurag Dake on 10/03/17.
+  Copyright © 2017 Cybrilla. All rights reserved.
+*/
+"aggreementText" = "By clicking 'Continue', I agree to the Privacy Policy and License Agreement(EULA)";
+"loading" = "Loading...";
+"downloading_contents" = "Downloading your content";
+"cancel" = "Cancel";
+"ok" = "Ok";
+"incomplete_registration_error" = "Please complete all fileds and then click on continue button.";
+"error_title" = "Error!";
+"mobile_not_registered_title" = "Mobile Number Not Registered";
+"user_not_registered" = "Your mobile number is not yet registered to use the app. Please contact Axis AMC Central Team and try again.";
+"password_mismatch" = "Passwords do not match";
+"user_update_fail_msg" = "Failed to update user data.Please retry to update data.";
+"invalid_email" = "The Email Address is in an invalid format.";
+"privacy_policy_title" = "Privacy Policy";
+"privacy_policy" = "Here will be privacy policy.";
+
+"error_message" = "Something went wrong. Please retry";
+
+"license_agreement_title" = "License Agreement";
+"license_agreement" = "Here will be license agreement";
+
+"otp_resend_success_msg" = "OTP send to entered mobile number.";
+"otp_resend_error_msg" = "Failed to send OTP.Please retry.";
+
+"fullname_min_length_error" = "Please enter atleast 3 character in Full Name field.";
+"designation_min_length_error" = "Please enter atleast 3 character in Designation field.";
+
+"add_photo" = "Add Photo";
+"change_photo" = "Change Photo";
+"choose_image" = "Choose Image";
+"camera" = "Camera";
+"gallery" = "Gallery";
+"delete" = "Delete";
+"cancel" = "Cancel";
+"retry" = "Retry";
+
+"shared" = "Shared";
+"selected" = "Selected";
+
+"marketing_materials" = "Marketing Materials";
+"fund_selector" = "Fund Selector";
+
+"enter_name" = "Enter Name";
+"enter_email" = "Enter Email ID";
+"enter_signature" = "Edit Signature";
+"name_cannot_empty" = "Name cannot be empty";
+"email_cannot_empty" = "Email ID cannot be empty";
+
+//Achievemnets
+"level" = "Level";
+"your_shares" = "Your Shares";
+"next_level" = "Next Level";
+"no_achievement" = "No Achievement Yet";
+"no_achievement_message" = "You have not reached any level yet";
+"na" = "NA";
+"MFPULSE" = "MF Pulse";
+"ALL_FUNDS_TITLE" = "Fund Tools";
+"fund_comparison" = "Fund Comparison";
+"fund_faq" = "Fund FAQs";
+"fund_presentation" = "Create Presentation";
+"fund_performance" = "Fund Performance";
+"swp_calculator" = "SWP Calculator";
+"sip_calculator" = "SIP Calculator";
+
+
+
+//Latest
+"invalid_username_error_title" = "Invalid Username";
+"invalid_username_error_message" = "This username is not registered to use app. Please contact Axis AMC Central Team and try again";
+
+//Meta Data Sync Dialog
+"sync_dialog_title" = "Syncing Required";
+"sync_dialog_message" = "New data is available for download. Please tap on the sync button to get the latest data";
+

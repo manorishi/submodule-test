@@ -1,0 +1,6 @@
+framework module Pods_smartsell {
+  umbrella header "Pods-smartsell-umbrella.h"
+
+  export *
+  module * { export * }
+}

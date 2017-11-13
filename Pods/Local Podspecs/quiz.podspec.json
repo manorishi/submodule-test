@@ -1,0 +1,36 @@
+{
+  "name": "quiz",
+  "version": "1.0.0",
+  "summary": "quiz module of the smartsell ios app",
+  "description": "quiz module of smartsell ios app",
+  "homepage": "http://enparadigm.com/",
+  "license": "ENPARADIGM",
+  "authors": {
+    "Sunil Sharma": "sunil.sharma@cybrilla.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "git@vault.cybrilla.com:enparadigm/quiz.git",
+    "tag": "1.0.0"
+  },
+  "source_files": [
+    "quiz",
+    "quiz/**/*.{h,m,swift}"
+  ],
+  "resources": "quiz/**/*.{plist,png,json,strings,xib}",
+  "resource_bundles": {
+    "quiz": [
+      "quiz/**/*.{xib,png,strings}"
+    ]
+  },
+  "pod_target_xcconfig": {
+    "SWIFT_VERSION": "3"
+  },
+  "dependencies": {
+    "Core": [
+
+    ]
+  }
+}

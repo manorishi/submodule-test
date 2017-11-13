@@ -1,0 +1,3 @@
+[submodule "Directory-local/smartsell-ios-directory"]
+	path = Directory-local/smartsell-ios-directory
+	url = https://gitlab.com/enparadigm_superagent/smartsell-ios-directory.git

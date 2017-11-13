@@ -16,7 +16,7 @@ target 'smartsell' do
   pod 'Poster', :git => 'git@gitlab.com:enparadigm_superagent/smartsell-ios-posters.git'
   pod 'pdf', :git => 'git@gitlab.com:enparadigm_superagent/smartsell-ios-pdf.git'
   pod 'Video', :git => 'git@gitlab.com:enparadigm_superagent/smartsell-ios-video.git'
-  pod 'Directory', :git => 'git@gitlab.com:enparadigm_superagent/smartsell-ios-directory.git'
+  pod 'Directory', :path => ‘~/Directory-local/smartsell-ios-directory’
   pod 'mfadvisor', :git => 'git@gitlab.com:enparadigm_superagent/smartsell-ios-mfadvisor.git'
   pod 'news', :git => 'git@gitlab.com:enparadigm_superagent/smartsell-ios-news.git'
   pod 'quiz', :git => 'git@gitlab.com:enparadigm_superagent/smartsell-ios-quiz.git'
